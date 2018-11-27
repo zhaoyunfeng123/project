@@ -51,13 +51,21 @@ public class MainActivity extends AppCompatActivity {
         }
     private View getTabSpecView(String name, int imageId, String tag){
         LayoutInflater layoutInflater = getLayoutInflater();
+        if (name.equals("")){
+            View view = layoutInflater.inflate(R.layout.tabspc_mainlayout,null);
+            ImageView imageView = view.findViewById(R.id.image);
+            imageView.setImageResource(imageId);
+            tabspecViews.put(tag, view);
+            imageViewMap.put(tag, imageView);
+            return view;
+        }else{
         View view = layoutInflater.inflate(R.layout.tabspc_layout,null);
-        ImageView imageView = view.findViewById(R.id.image);
-        imageView.setImageResource(imageId);
         TextView textView = view.findViewById(R.id.textView);
         textView.setText(name);
+            ImageView imageView = view.findViewById(R.id.image);
+            imageView.setImageResource(imageId);
         tabspecViews.put(tag, view);
         imageViewMap.put(tag, imageView);
-        return view;
+        return view;}
     }
 }
