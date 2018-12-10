@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPalegreen">
+        <ImageView
+            android:id="@+id/myself_setting_personaldata_return"
+            android:src="@drawable/returnlogo"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="24sp"
+            android:text="个人资料"
+            android:layout_marginLeft="23dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/img_personaldata_touxiang"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/mhyself_touxiang"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/img_personaldata_touxiangmoban"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/touxiangmoban"
+            android:layout_gravity="center"
+            android:layout_marginTop="-85dp"/>
+        <TextView
+            android:id="@+id/myself_setting_personaldata_changetouxiang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更改头像"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlank"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="用户名"
+            android:textSize="19sp"
+
+            android:textColor="@color/colorBlank"/>
+
+        <EditText
+            android:id="@+id/myself_setting_personaldata_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="18sp"
+            android:hint="軒義"
+            android:layout_marginLeft="25dp"
+            android:gravity="right|center_vertical"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorDarkGray"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="性别"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlank"/>
+        <Spinner
+            android:id="@+id/myself_setting_personaldata_sex"
+            android:layout_width="65dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="生日"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlank"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:onClick="chooseDateDialog"
+            android:text="2016-06-15"
+            android:textColor="#656565"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|left"
+            android:text="邮箱"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlank" />
+
+        <EditText
+            android:id="@+id/myself_setting_personaldata_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:gravity="right|center_vertical"
+            android:hint="5241234567@qq.com"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="吃货名言"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlank"/>
+
+        <EditText
+            android:id="@+id/myself_setting_personaldata_hobby"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="既然要吃,就要吃胖"
+            android:textSize="18sp"
+            android:gravity="right|center_vertical"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/myself_setting_personaldata_keep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_bg_palegreen"
+            android:text="提交保存"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
