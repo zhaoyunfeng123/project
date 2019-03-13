@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.hebtu.software.cai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".Myself.LoginActivity" />
+        <activity android:name=".Myself.RegisteActivity" />
+        <activity android:name=".Myself.MyselfSetting" />
+        <activity android:name=".Myself.MyselfMoney" />
+        <activity android:name=".Myself.MyselfSettingWe" />
+        <activity android:name=".Myself.MyselfSettingPersonaldate" />
+        <activity android:name=".Home.HomePaihangbang" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".Myself.ChangePassword" />
+        <activity android:name=".Myself.ForgetPassword" />
+        <activity android:name=".Myself.MyPrivateDish"/>
+
+    </application>
+
+</manifest>
