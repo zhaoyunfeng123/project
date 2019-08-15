@@ -42,35 +42,16 @@
 <img src="./image/logo.png" width=250 height=400 />
 <img src="./image/开机动画页面.png" width=250 height=400 />
 <img src="./image/首页.png" width=250 height=400 />
-<img src="./image/首页2.png" width=250 height=400 />
 </p>
 <p>
 <img src="./image/排行榜页面.png" width=250 height=400 />
 <img src="./image/搜索查询结果页面.png" width=250 height=400 />
-<img src="./image/搜索查询详情页面.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/分类页面.png" width=250 height=400 />
-<img src="./image/分类搜索页面.png" width=250 height=400 />
-<img src="./image/分类搜索详情页面.png" width=250 height=400 />
 </p>
 <p>
 <img src="./image/推荐精品菜谱页面.png" width=250 height=400 />
 <img src="./image/社区页面.png" width=250 height=400 />
-<img src="./image/评论动态和点赞.png" width=250 height=400 />
 </p>
 <p>
 <img src="./image/我的页面.png" width=250 height=400 />
-<img src="./image/登录页面.png" width=250 height=400 />
-<img src="./image/注册页面.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/用户反馈页面.png" width=250 height=400 />
 <img src="./image/设置页面.png" width=250 height=400 />
-<img src="./image/我的钱包页面.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/忘记密码页面.png" width=250 height=400 />
-<img src="./image/更改密码页面.png" width=250 height=400 />
-<img src="./image/更改个人资料页面.jpg" width=250 height=400 />
 </p>
