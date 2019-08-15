@@ -35,23 +35,3 @@
 * 刘宇豪（质量专家、UI设计师、开发工程师、测试工程师）
     * Email :1403949014@qq.com
     * GitHub:[https://github.com/wujiel](https://github.com/wujiel)
-
-### 项目截图
-
-<p>
-<img src="./image/logo.png" width=250 height=400 />
-<img src="./image/开机动画页面.png" width=250 height=400 />
-<img src="./image/首页.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/排行榜页面.png" width=250 height=400 />
-<img src="./image/搜索查询结果页面.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/推荐精品菜谱页面.png" width=250 height=400 />
-<img src="./image/社区页面.png" width=250 height=400 />
-</p>
-<p>
-<img src="./image/我的页面.png" width=250 height=400 />
-<img src="./image/设置页面.png" width=250 height=400 />
-</p>
